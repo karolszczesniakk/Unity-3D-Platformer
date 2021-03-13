@@ -639,8 +639,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.093331, y: 0.65324056, z: 3.702938}
-  m_Center: {x: -0.0065900087, y: -0.17337972, z: -0.16334724}
+  m_Size: {x: 2.093331, y: 0.65324056, z: 5.587536}
+  m_Center: {x: -0.0065900087, y: -0.17337972, z: 0.77895164}
 --- !u!4 &279565516 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1511698345, guid: 235539f947d857440a0d9c4e2cdee08a,
@@ -1202,8 +1202,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.093331, y: 0.48917723, z: 3.410756}
-  m_Center: {x: -0.0065900087, y: 0.08674693, z: -0.01725626}
+  m_Size: {x: 2.093331, y: 0.48917723, z: 6.0580683}
+  m_Center: {x: -0.0065900087, y: 0.08674693, z: 1.3063998}
 --- !u!1001 &557266880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2452,7 +2452,7 @@ GameObject:
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &908231035
 Animator:
   serializedVersion: 3
@@ -5209,12 +5209,12 @@ PrefabInstance:
     - target: {fileID: 3547008714051901353, guid: 6e71786ce98b33c4ca1557fdb28eba59,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0019553164
+      value: 0.0019553509
       objectReference: {fileID: 0}
     - target: {fileID: 3547008714051901353, guid: 6e71786ce98b33c4ca1557fdb28eba59,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00004985789
+      value: 0.00004985882
       objectReference: {fileID: 0}
     - target: {fileID: 3547008714070698307, guid: 6e71786ce98b33c4ca1557fdb28eba59,
         type: 3}
