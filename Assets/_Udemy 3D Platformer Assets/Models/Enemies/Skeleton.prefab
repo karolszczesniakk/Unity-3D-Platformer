@@ -70,6 +70,7 @@ GameObject:
   - component: {fileID: 1199528039}
   - component: {fileID: 1199528040}
   - component: {fileID: 1199528042}
+  - component: {fileID: 2533916649281333136}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: Enemy
@@ -142,8 +143,6 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   currentPatrolPoint: 0
   agent: {fileID: 1199528039}
   anim: {fileID: 901990790034255856}
@@ -170,6 +169,20 @@ MonoBehaviour:
     type: 3}
   itemToDrop: {fileID: 6557797091361633258, guid: 7acef82c0e5c1fb419e91cadc5017d38,
     type: 3}
+--- !u!136 &2533916649281333136
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65124159981741896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 1.0564196
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5202614, z: 0}
 --- !u!1001 &901990790026926736
 PrefabInstance:
   m_ObjectHideFlags: 0
